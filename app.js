@@ -52,6 +52,9 @@ app.post("/data", (req, res) => {
 app.get("/", (req, res) => {
     res.render("index")
 })
+app.get("/receipt", (req, res) => {
+    res.render("index2")
+})
 
 app.listen(port, () => {
     console.log("Started")
