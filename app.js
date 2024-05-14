@@ -55,6 +55,9 @@ app.get("/", (req, res) => {
 app.get("/ireceipt", (req, res) => {
     res.render("index2")
 })
+app.get("/hudform", (req, res) => {
+    res.render("hudform")
+})
 
 app.listen(port, () => {
     console.log("Started")
