@@ -58,6 +58,9 @@ app.get("/ireceipt", (req, res) => {
 app.get("/hudform", (req, res) => {
     res.render("hudform")
 })
+app.get("/grantform", (req, res) => {
+    res.render("grantapplication")
+})
 
 app.listen(port, () => {
     console.log("Started")
