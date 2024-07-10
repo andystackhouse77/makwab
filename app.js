@@ -58,6 +58,9 @@ app.get("/ireceipt", (req, res) => {
 app.get("/hudform", (req, res) => {
     res.render("hudform")
 })
+app.get("/grantformvillage", (req, res) => {
+    res.render("mountprospectgrantform")
+})
 app.get("/grantform", (req, res) => {
     res.render("grantapplication")
 })
