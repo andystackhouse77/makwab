@@ -55,6 +55,9 @@ app.get("/", (req, res) => {
 app.get("/ireceipt", (req, res) => {
     res.render("index2")
 })
+app.get("/knoxville", (req, res) => {
+    res.render("knoxville")
+})
 app.get("/hudform", (req, res) => {
     res.render("hudform")
 })
