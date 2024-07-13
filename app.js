@@ -52,6 +52,9 @@ app.post("/data", (req, res) => {
 app.get("/", (req, res) => {
     res.render("index")
 })
+app.get("/lakewood", (req, res) => {
+    res.render("cityoflakewood")
+})
 app.get("/ireceipt", (req, res) => {
     res.render("index2")
 })
