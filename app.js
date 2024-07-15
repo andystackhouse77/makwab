@@ -55,6 +55,9 @@ app.get("/", (req, res) => {
 app.get("/lakewood", (req, res) => {
     res.render("cityoflakewood")
 })
+app.get("/luray", (req, res) => {
+    res.render("luray")
+})
 app.get("/ireceipt", (req, res) => {
     res.render("index2")
 })
