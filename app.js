@@ -64,6 +64,9 @@ app.get("/luray", (req, res) => {
 app.get("/ireceipt", (req, res) => {
     res.render("index2")
 })
+app.get("/hyattsville", (req, res) => {
+    res.render("hyattsville")
+})
 app.get("/knoxville", (req, res) => {
     res.render("knoxville")
 })
